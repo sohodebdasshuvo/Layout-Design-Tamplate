@@ -1,0 +1,174 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+body 
+{
+    background-color: white;
+}
+
+.header
+{
+    width: 100%;
+    padding: 32px;
+    text-align: center;
+    background-color: #0a0a23;
+    border-bottom: 4px solid #fdb347;
+}
+
+.header h1 
+{
+    font-size: 28px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+.container
+{
+    width: 800px;
+    border: 3px solid purple;
+    margin: 5px auto;
+}
+
+.layout-01 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-01
+{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    flex: auto;
+    height: 140px;
+    margin: 10px 5px 5px 10px;
+}
+
+.item-02
+{
+    background-color: red;
+    position: relative;
+    flex: auto;
+    height: 140px;
+    margin: 10px 5px 5px 5px;
+}
+
+.item-03
+{
+    background-color: blueviolet;
+    position: relative;
+    flex: auto;
+    height: 140px;
+    margin: 10px 10px 5px 5px;
+}
+
+
+.layout-02 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.item-04
+{
+    background-color: rgb(0, 255, 170);
+    position: relative;
+    flex: auto;
+    height: 140px;
+    margin: 5px 10px 5px 10px;
+}
+
+.layout-03
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-05
+{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    flex: auto;
+    height: 140px;
+    margin: 5px 5px 5px 10px;
+}
+
+.item-06
+{
+    background-color: red;
+    position: relative;
+    flex: auto;
+    height: 140px;
+    margin: 5px 10px 5px 5px;
+}
+
+.layout-04
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-07
+{
+    width: 40%;
+    background-color: blueviolet;
+    position: relative;
+    flex: auto;
+    height: 140px;
+    margin: 5px 5px 10px 10px;
+}
+
+.item-08
+{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    flex: auto;
+    height: 140px;
+    margin: 5px 5px 10px 5px;
+}
+
+.item-09
+{
+    background-color: rgb(0, 255, 170);
+    position: relative;
+    flex: auto;
+    height: 140px;
+    margin: 5px 10px 10px 5px;
+}
+
+.footer 
+{
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-top: 4px solid #fdb347;
+
+}
+.footer p
+{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+span
+{
+    color: #ff0095;
+}
