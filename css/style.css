@@ -3,9 +3,897 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: fantasy;
 }
 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width:0px) and (max-width: 301px) 
+{
+
 body 
+{
+    background-color: white;
+}
+
+.header
+{
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    background-color: #0a0a23;
+    border-bottom: 4px solid #fdb347;
+}
+
+
+.header h1 
+{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+
+.container
+{
+    width: 80%;
+    border: 3px solid purple;
+    margin: 3px auto;
+}
+
+.layout-01 
+{
+    width: 100%;
+    flex-direction: column;
+}
+
+.item-01
+{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+
+.item-02
+{
+    background-color: red;
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+.item-03
+{
+    background-color: blueviolet;
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+.layout-02 
+{
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.item-04
+{
+    background-color: rgb(0, 255, 170);
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+.layout-03
+{
+    width: 100%;
+    flex-direction: column;
+}
+
+.item-05
+{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+.item-06
+{
+    background-color: red;
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+.layout-04
+{
+    width: 100%;
+    flex-direction: column;
+}
+
+.item-07
+{
+    background-color: blueviolet;
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+.item-08
+{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+.item-09
+{
+    background-color: rgb(0, 255, 170);
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+
+
+.footer 
+{
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-top: 4px solid #fdb347;
+
+}
+.footer p
+{
+    font-weight: 700;
+    font-size: 8px;
+}
+
+
+span
+{
+    color: #ff0095;
+}
+
+
+
+
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width:300px) and (max-width: 599px) 
+{
+
+body 
+{
+    background-color: white;
+}
+
+.header
+{
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    background-color: #0a0a23;
+    border-bottom: 4px solid #fdb347;
+}
+
+
+.header h1 
+{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+
+.container
+{
+    width: 80%;
+    border: 3px solid purple;
+    margin: 3px auto;
+}
+
+.layout-01 
+{
+    width: 100%;
+    flex-direction: column;
+}
+
+.item-01
+{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+
+.item-02
+{
+    background-color: red;
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+.item-03
+{
+    background-color: blueviolet;
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+.layout-02 
+{
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.item-04
+{
+    background-color: rgb(0, 255, 170);
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+.layout-03
+{
+    width: 100%;
+    flex-direction: column;
+}
+
+.item-05
+{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+.item-06
+{
+    background-color: red;
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+.layout-04
+{
+    width: 100%;
+    flex-direction: column;
+}
+
+.item-07
+{
+    background-color: blueviolet;
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+.item-08
+{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+.item-09
+{
+    background-color: rgb(0, 255, 170);
+    position: relative;
+    flex: auto;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+}
+
+
+
+.footer 
+{
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-top: 4px solid #fdb347;
+
+}
+.footer p
+{
+    font-weight: 700;
+    font-size: 8px;
+}
+
+
+span
+{
+    color: #ff0095;
+}
+
+
+
+
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width:600px) and (max-width: 768px)
+{
+
+
+    body 
+    {
+        background-color: white;
+    }
+    
+    .header
+    {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        background-color: #0a0a23;
+        border-bottom: 4px solid #fdb347;
+    }
+    
+    .header h1 
+    {
+        font-size: 25px;
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+    }
+    
+    .container
+    {
+        width: 80%;
+        border: 3px solid purple;
+        margin: 5px auto;
+    }
+    
+    .layout-01 
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .item-01
+    {
+        background-color: rgb(255, 187, 0);
+        position: relative;
+        flex: auto;
+        height: 100px;
+        margin: 5px 2.5px 2.5px 5px;
+    }
+    
+    .item-02
+    {
+        background-color: red;
+        position: relative;
+        flex: auto;
+        height: 100px;
+        margin: 5px 5px 2.55px 2.5px;
+    }
+    
+    .item-03
+    {
+        width: 100%;
+        background-color: blueviolet;
+        position: relative;
+        flex: auto;
+        height: 100px;
+        margin: 2.5px 5px 2.5px 5px;
+    }
+    
+    
+    .layout-02 
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    
+    .item-04
+    {
+        background-color: rgb(0, 255, 170);
+        position: relative;
+        flex: auto;
+        height: 100px;
+        margin: 2.5px 5px 2.5px 5px;
+    }
+    
+    .layout-03
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .item-05
+    {
+        background-color: rgb(255, 187, 0);
+        position: relative;
+        flex: auto;
+        height: 100px;
+        margin: 2.55px 2.5px 2.5px 5px;
+    }
+    
+    .item-06
+    {
+        background-color: red;
+        position: relative;
+        flex: auto;
+        height: 100px;
+        margin: 2.5px 5px 2.5px 2.5px;
+    }
+    
+    .layout-04
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .item-07
+    {
+        width: 100%;
+        background-color: blueviolet;
+        position: relative;
+        flex: auto;
+        height: 100px;
+        margin: 2.5px 5px 2.5px 5px;
+    }
+    
+    .item-08
+    {
+        background-color: rgb(255, 187, 0);
+        position: relative;
+        flex: auto;
+        height: 100px;
+        margin: 2.5px 2.5px 5px 2.5px;
+    }
+    
+    .item-09
+    {
+        background-color: rgb(0, 255, 170);
+        position: relative;
+        flex: auto;
+        height: 100px;
+        margin: 2.5px 5px 5px 2.5px;
+    }
+    
+    .footer 
+    {
+        width: 100%;
+        text-align: center;
+        padding: 40px;
+        background-color: #0a0a23;
+        color: #fff;
+        border-top: 4px solid #fdb347;
+    
+    }
+    .footer p
+    {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    
+    span
+    {
+        color: #ff0095;
+    }
+
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 767px) and (max-width:992px)
+{
+
+body 
+{
+    background-color: white;
+}
+
+.header
+{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background-color: #0a0a23;
+    border-bottom: 4px solid #fdb347;
+}
+
+.header h1 
+{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+.container
+{
+    width: 80%;
+    border: 3px solid purple;
+    margin: 5px auto;
+}
+
+.layout-01 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-01
+{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    flex: auto;
+    height: 120px;
+    margin: 5px 2.5px 2.5px 5px;
+}
+
+.item-02
+{
+    background-color: red;
+    position: relative;
+    flex: auto;
+    height: 120px;
+    margin: 5px 2.5px 2.5px 2.5px;
+}
+
+.item-03
+{
+    background-color: blueviolet;
+    position: relative;
+    flex: auto;
+    height: 120px;
+    margin: 5px 5px 2.5px 2.5px;
+}
+
+
+.layout-02 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.item-04
+{
+    background-color: rgb(0, 255, 170);
+    position: relative;
+    flex: auto;
+    height: 120px;
+    margin: 2.5px 5px 2.5px 5px;
+}
+
+.layout-03
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-05
+{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    flex: auto;
+    height: 120px;
+    margin: 2.5px 2.5px 2.5px 5px;
+}
+
+.item-06
+{
+    background-color: red;
+    position: relative;
+    flex: auto;
+    height: 120px;
+    margin: 2.5px 5px 2.5px 2.5px;
+}
+
+.layout-04
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-07
+{
+    width: 40%;
+    background-color: blueviolet;
+    position: relative;
+    flex: auto;
+    height: 120px;
+    margin: 2.5px 2.5px 5px 5px;
+}
+
+.item-08
+{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    flex: auto;
+    height: 120px;
+    margin: 2.5px 2.5px 5px 2.5px;
+}
+
+.item-09
+{
+    background-color: rgb(0, 255, 170);
+    position: relative;
+    flex: auto;
+    height: 120px;
+    margin: 2.5px 5px 5px 2.5px;
+}
+
+.footer 
+{
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-top: 4px solid #fdb347;
+
+}
+.footer p
+{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+span
+{
+    color: #ff0095;
+}
+
+}
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 991px) and (max-width: 1200px)
+{
+
+
+body 
+{
+    background-color: white;
+}
+
+.header
+{
+    width: 100%;
+    padding: 32px;
+    text-align: center;
+    background-color: #0a0a23;
+    border-bottom: 4px solid #fdb347;
+}
+
+
+.header h1 
+{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+
+.container
+{
+    width: 80%;
+    border: 3px solid purple;
+    margin: 5px auto;
+}
+
+.layout-01 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-01
+{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    flex: auto;
+    height: 130px;
+    margin: 6px 3px 3px 6px;
+}
+
+
+.item-02
+{
+    background-color: red;
+    position: relative;
+    flex: auto;
+    height: 130px;
+    margin: 6px 3px 3px 3px;
+}
+
+.item-03
+{
+    background-color: blueviolet;
+    position: relative;
+    flex: auto;
+    height: 130px;
+    margin: 6px 6px 3px 3px;
+}
+
+.layout-02 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.item-04
+{
+    background-color: rgb(0, 255, 170);
+    position: relative;
+    flex: auto;
+    height: 130px;
+    margin: 3px 6px 3px 6px;
+}
+
+.layout-03
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-05
+{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    flex: auto;
+    height: 130px;
+    margin: 3px 3px 3px 6px;
+}
+
+.item-06
+{
+    background-color: red;
+    position: relative;
+    flex: auto;
+    height: 130px;
+    margin: 3px 6px 3px 3px;
+}
+
+.layout-04
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item-07
+{
+    width: 40%;
+    background-color: blueviolet;
+    position: relative;
+    flex: auto;
+    height: 130px;
+    margin: 3px 3px 6px 6px;
+}
+
+.item-08
+{
+    background-color: rgb(255, 187, 0);
+    position: relative;
+    flex: auto;
+    height: 130px;
+    margin: 3px 3px 6px 3px;
+}
+
+.item-09
+{
+    background-color: rgb(0, 255, 170);
+    position: relative;
+    flex: auto;
+    height: 130px;
+    margin: 3px 6px 6px 3px;
+}
+
+
+
+.footer 
+{
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-top: 4px solid #fdb347;
+
+}
+.footer p
+{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+span
+{
+    color: #ff0095;
+}
+
+
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1199px) 
+{
+
+    body 
 {
     background-color: white;
 }
@@ -29,7 +917,7 @@ body
 
 .container
 {
-    width: 800px;
+    width: 80%;
     border: 3px solid purple;
     margin: 5px auto;
 }
@@ -47,7 +935,7 @@ body
     background-color: rgb(255, 187, 0);
     position: relative;
     flex: auto;
-    height: 140px;
+    height: 150px;
     margin: 10px 5px 5px 10px;
 }
 
@@ -56,7 +944,7 @@ body
     background-color: red;
     position: relative;
     flex: auto;
-    height: 140px;
+    height: 150px;
     margin: 10px 5px 5px 5px;
 }
 
@@ -65,7 +953,7 @@ body
     background-color: blueviolet;
     position: relative;
     flex: auto;
-    height: 140px;
+    height: 150px;
     margin: 10px 10px 5px 5px;
 }
 
@@ -84,7 +972,7 @@ body
     background-color: rgb(0, 255, 170);
     position: relative;
     flex: auto;
-    height: 140px;
+    height: 150px;
     margin: 5px 10px 5px 10px;
 }
 
@@ -101,7 +989,7 @@ body
     background-color: rgb(255, 187, 0);
     position: relative;
     flex: auto;
-    height: 140px;
+    height: 150px;
     margin: 5px 5px 5px 10px;
 }
 
@@ -110,7 +998,7 @@ body
     background-color: red;
     position: relative;
     flex: auto;
-    height: 140px;
+    height: 150px;
     margin: 5px 10px 5px 5px;
 }
 
@@ -128,7 +1016,7 @@ body
     background-color: blueviolet;
     position: relative;
     flex: auto;
-    height: 140px;
+    height: 150px;
     margin: 5px 5px 10px 10px;
 }
 
@@ -137,7 +1025,7 @@ body
     background-color: rgb(255, 187, 0);
     position: relative;
     flex: auto;
-    height: 140px;
+    height: 150px;
     margin: 5px 5px 10px 5px;
 }
 
@@ -146,7 +1034,7 @@ body
     background-color: rgb(0, 255, 170);
     position: relative;
     flex: auto;
-    height: 140px;
+    height: 150px;
     margin: 5px 10px 10px 5px;
 }
 
@@ -171,3 +1059,7 @@ span
 {
     color: #ff0095;
 }
+
+}
+
+
